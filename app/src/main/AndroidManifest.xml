@@ -14,6 +14,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".service.MyLifeCycleService" />
+        <service android:name=".service.MyLifeCycleService"  android:enabled="true"/>
     </application>
 </manifest>
